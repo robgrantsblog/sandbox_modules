@@ -1,0 +1,23 @@
+# Terraform working data
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Local configuration and credentials
+*.tfvars
+*.tfvars.json
+backend.hcl
+!backend.hcl.example
+
+# Terraform CLI overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# This directory is a reusable child module, not a Terraform root configuration.
+modules/*/.terraform.lock.hcl
