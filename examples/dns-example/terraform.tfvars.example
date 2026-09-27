@@ -1,0 +1,3 @@
+# Replace with a domain that matches an existing public Route53 hosted zone.
+domain_name = "example.com"
+aws_region  = "us-east-1"

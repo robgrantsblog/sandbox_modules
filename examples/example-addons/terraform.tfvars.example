@@ -1,0 +1,12 @@
+aws_region     = "us-east-1"
+cluster_name   = "example-eks"
+cluster_endpoint = "https://EXAMPLE.gr7.us-east-1.eks.amazonaws.com"
+cluster_certificate_authority_data = "REPLACE_WITH_BASE64_ENCODED_CLUSTER_CA"
+vpc_id         = "vpc-0123456789abcdef0"
+domain_name    = "example.com"
+lb_controller_role_arn = "arn:aws:iam::123456789012:role/example-eks-lb-controller"
+external_dns_role_arn  = "arn:aws:iam::123456789012:role/example-eks-external-dns"
+
+# Choose reviewed chart versions compatible with your EKS/Kubernetes version.
+aws_load_balancer_controller_chart_version = "3.5.0"
+external_dns_chart_version                 = "1.22.0"

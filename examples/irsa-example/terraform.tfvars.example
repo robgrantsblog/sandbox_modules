@@ -1,0 +1,6 @@
+aws_region   = "us-east-1"
+cluster_name = "example-eks"
+
+# Replace these with the actual outputs for your EKS cluster and public zone.
+eks_oidc_provider_arn = "arn:aws:iam::123456789012:oidc-provider/oidc.eks.us-east-1.amazonaws.com/id/EXAMPLE"
+route53_zone_arn      = "arn:aws:route53:::hostedzone/Z0123456789EXAMPLE"

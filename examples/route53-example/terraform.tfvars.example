@@ -1,0 +1,4 @@
+# Use the exact DNS name of an existing hosted zone.
+zone_name    = "example.com"
+private_zone = false
+aws_region   = "us-east-1"
